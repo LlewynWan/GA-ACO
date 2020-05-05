@@ -1,10 +1,6 @@
 import numpy as np
 from random import sample, randint, uniform
 
-from matplotlib import cm
-import matplotlib.pyplot as plt
-from mpl_toolkits import mplot3d
-
 
 class GeneticAlgorithm:
     def __init__(self, Z, bitlen=7, pop_size=25, num_iter=200, copy_ratio=0.3, mutate_prob=0.01):

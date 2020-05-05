@@ -3,9 +3,9 @@
 ## How to run    
 - Genetic Algorithm:   
 ```bash
-python3 main.py GA
+python main.py GA
 ```
 - Ant Colony Optimisation:   
 ```bash
-python3 main.py ACO
+python main.py ACO
 ```

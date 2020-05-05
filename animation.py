@@ -10,6 +10,9 @@ class animator:
     def __init__(self, X, Y, Z, sequence,
             fig=0, name=None, interval=1):
         self.fig = plt.figure(fig)
+        if name != None:
+            self.fig.canvas.set_window_title(name)
+        
         ax = self.fig.gca(projection='3d')
         ax.plot_surface(X, Y, Z, rstride=1, cstride=1,
                     cmap='viridis', edgecolor='none', alpha=0.75)
